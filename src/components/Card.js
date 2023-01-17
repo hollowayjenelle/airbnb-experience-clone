@@ -2,8 +2,7 @@ export default function Card(props){
     return (
         <div className="card-container">
             <div className="image-container">
-                <button className="status">SOLD OUT</button>
-                <img src={props.img} alt="lady in swimwear smiling"/>
+                <img src={`./images/${props.img}`} alt="lady in swimwear smiling"/>
             </div>
             <div className="ratings">
                 <img src="./images/star.png" alt="red star" className="star-img"/>
