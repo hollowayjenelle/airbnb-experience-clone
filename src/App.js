@@ -2,7 +2,6 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
-import image1 from './images/image1.png'
 
 function App() {
   return (
@@ -10,7 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <Card 
-        img = {image1}
+        img = "./images/image1.png"
         rating = "5.0"
         reviewCount = {6}
         country = "USA"

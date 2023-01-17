@@ -1,5 +1,3 @@
-import star from "../images/star.png"
-
 export default function Card(props){
     return (
         <div className="card-container">
@@ -8,7 +6,7 @@ export default function Card(props){
                 <img src={props.img} alt="lady in swimwear smiling"/>
             </div>
             <div className="ratings">
-                <img src={star} alt="red star" className="star-img"/>
+                <img src="./images/star.png" alt="red star" className="star-img"/>
                 <span>{props.rating}</span>
                 <span className="gray">({props.reviewCount}) -</span>
                 <span className="gray">{props.country}</span>
