@@ -95,3 +95,11 @@
 .pricing{
   margin-left: 5px;
 }
+
+.gray{
+  color: #918E9B
+}
+
+.ratings > span{
+  margin-right: 3px;
+}
