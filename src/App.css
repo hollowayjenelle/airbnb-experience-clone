@@ -56,3 +56,42 @@
   line-height: 18px;
   margin-top: 0;
 }
+
+.card-container{
+  padding: 20px;
+  font-size: 12px;
+}
+
+.image-container > img{
+  width: 176px;
+  height: 235px;
+}
+
+.status{
+  position: absolute;
+  margin: 5px;
+  width: 70px;
+  height: 20px;
+  font-size: 10px;
+}
+
+.ratings{
+  display: flex;
+  align-items: center;
+  margin-left: 3px;
+}
+
+.star-img{
+  height: 14px;
+  margin-right: 3px;
+}
+
+.experience-description{
+  margin-left: 5px;
+  font-weight: 300;
+  margin-bottom: -5px;
+}
+
+.pricing{
+  margin-left: 5px;
+}
