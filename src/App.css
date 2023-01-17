@@ -4,6 +4,8 @@
 
 .body{
   margin: 0;
+  font-family: 'Poppins';
+  background-color: black;
 }
 
 .root{
@@ -11,7 +13,10 @@
 }
 
 .App{
-  place-items: center;
+  margin: auto;
+  width: 550px;
+  height: 853px;
+  border: 2px solid black;
 }
 
 .nav-bar{
@@ -22,4 +27,32 @@
 .logo{
   max-width: 120px;
   margin: 15px;
+}
+
+.hero-display{
+  padding: 25px;
+}
+
+.grid-container{
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid{
+  max-width: 395px;
+  max-height: 232px;
+}
+
+.main-heading{
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.description{
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  line-height: 18px;
+  margin-top: 0;
 }
